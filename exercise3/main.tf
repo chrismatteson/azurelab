@@ -7,7 +7,7 @@ resource "azurerm_resource_group" "myfirstrg" {
   }
 }
 
-resource "azurerm_virtual_network" "test" {
+resource "azurerm_virtual_network" "myfirstvn" {
   name                = "${var.vn_name}"
   address_space       = "${var.vn_address_space}"
   location            = "${var.vn_location}"
